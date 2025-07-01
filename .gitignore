@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+.envrc
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode and PyCharm files
+.vscode/
+.idea/
+
+# Streamlit-specific cache
+.streamlit/
+
+# Temporary folders/files for document processing
+tempDir/
+files/
+
+# Output files
+*.csv
+*.docx
+*.pdf
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Elasticsearch data (if any local mounts)
+esdata/

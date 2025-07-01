@@ -12,3 +12,4 @@ python-docx
 torch
 transformers
 sentencepiece
+altair==4.2.2

@@ -106,7 +106,7 @@ class QGPipeline:
             add_special_tokens=add_special_tokens,
             truncation=truncation,
             padding="max_length" if padding else False,
-            pad_to_max_length=padding,
+            #pad_to_max_length=padding,
             return_tensors="pt"
         )
         return inputs
@@ -280,7 +280,7 @@ class E2EQGPipeline:
             add_special_tokens=add_special_tokens,
             truncation=truncation,
             padding="max_length" if padding else False,
-            pad_to_max_length=padding,
+            #pad_to_max_length=padding,
             return_tensors="pt"
         )
         return inputs
